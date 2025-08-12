@@ -159,7 +159,6 @@ async function projects() {
 function getEnvironments(projectId, projectName, apiKey, customProjectId) {
     console.log(`\n🌍 Environments for "${projectName}"`);
     console.log('═══════════════════════════════\n');
-    console.log(customProjectId);
 
     const url = new URL(`${baseURLEnviornment}/project/${customProjectId}/enviornments`);
     const isHttps = url.protocol === 'https:';
