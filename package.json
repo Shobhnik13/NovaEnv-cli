@@ -1,0 +1,54 @@
+{
+  "name": "novaenv",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool for managing environment variables across projects and environments",
+  "main": "index.js",
+  "bin": {
+    "novaenv": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build step required\"",
+    "lint": "echo \"No linting configured\"",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "environment",
+    "variables",
+    "env",
+    "cli",
+    "configuration",
+    "deployment",
+    "development",
+    "environment-management",
+    "dotenv",
+    "config"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/novaenv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/novaenv/issues"
+  },
+  "homepage": "https://github.com/yourusername/novaenv#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
