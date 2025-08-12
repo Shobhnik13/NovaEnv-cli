@@ -1,10 +1,10 @@
 {
-  "name": "novaenv",
+  "name": "novaenv-cli",
   "version": "1.0.0",
   "description": "A powerful CLI tool for managing environment variables across projects and environments",
   "main": "index.js",
   "bin": {
-    "novaenv": "./index.js"
+    "novaenv-cli": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -26,18 +26,11 @@
     "config"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Shobhnik",
+    "email": "shobhnikw@gmail.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/novaenv.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/novaenv/issues"
-  },
-  "homepage": "https://github.com/yourusername/novaenv#readme",
+  "homepage": "https://novaenv.shobhnik.xyz/",
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=6.0.0"

@@ -120,7 +120,6 @@ async function projects() {
 
                 projectsList.forEach((project, index) => {
                     console.log(`${index + 1}. ${project.name}`);
-                    console.log(`   ID: ${project.projectId}`);
                     console.log(`   Created: ${new Date(project.createdAt).toLocaleDateString()}`);
                     console.log('');
                 });
@@ -305,6 +304,22 @@ function getVariables(projectId, enviornmentId, environmentName, apiKey, customP
     req.end();
 }
 
+//whoami
+function whoami() {
+    if (fs.existsSync(configPath)) {
+        console.log(`\n Logged in user info`);
+        console.log('═══════════════════════════════════════════\n');
+        let config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+
+
+        console.log("Logged in API KEY:", config.apiKey)
+        console.log('Logged in user email:', config.user.email)
+    } else {
+         console.log('ℹ️  You need to login first by using your API KEY');
+    }
+
+}
+
 // Logout
 function logout() {
     try {
@@ -322,7 +337,7 @@ function logout() {
 // Help
 function showHelp() {
     console.log(`
-🚀 EnvVar CLI - Environment Variable Manager
+🚀 NovaEnv CLI - Environment Variable Manager
 ════════════════════════════════════════════
 
 Commands:
@@ -330,6 +345,7 @@ Commands:
   projects      List and select projects  
   logout        Logout and clear credentials
   help          Show this help message
+  whoami        Show the current logged in email based on api key provided
 
 Usage:
   novaenv-cli login
@@ -353,6 +369,9 @@ switch (command) {
         break;
     case 'logout':
         logout();
+        break;
+    case 'whoami':
+        whoami();
         break;
     case 'help':
     case '--help':
