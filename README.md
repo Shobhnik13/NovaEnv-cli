@@ -6,7 +6,7 @@ Command-line interface for managing environment variables across your projects. 
 
 > **Note:** Project and environment creation is not supported via CLI. Please use the web dashboard to create projects and environments first, then use this CLI to extract and manage your variables.
 
-![Dashboard](Dashboard.png)
+![Dashboard](https://files.catbox.moe/uicy1p.png)
 
 ## Installation
 
@@ -69,9 +69,9 @@ novaenv-cli help
 
 Display usage instructions and command list.
 
-![Key Management](Key.png)
+![Key Management](https://files.catbox.moe/j45u7g.png)
 
-![Landing Page](Landing.png)
+![Landing Page](https://files.catbox.moe/14pv7w.png)
 
 ## Support
 
