@@ -6,11 +6,11 @@ Command-line interface for managing environment variables across your projects. 
 
 > **Note:** Project and environment creation is not supported via CLI. Please use the web dashboard to create projects and environments first, then use this CLI to extract and manage your variables.
 
-<div align="center">
-  <img src="https://files.catbox.moe/14pv7w.png" alt="Landing Page" width="30%" />
-  <img src="https://files.catbox.moe/uicy1p.png" alt="Dashboard" width="30%" />
-  <img src="https://files.catbox.moe/j45u7g.png" alt="Key Management" width="30%" />
-</div>
+![Landing Page](https://files.catbox.moe/14pv7w.png)
+
+![Dashboard](https://files.catbox.moe/uicy1p.png)
+
+![Key Management](https://files.catbox.moe/j45u7g.png)
 
 ## Installation
 
