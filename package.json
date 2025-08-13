@@ -1,6 +1,6 @@
 {
   "name": "novaenv-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful CLI tool for managing environment variables across projects and environments",
   "main": "index.js",
   "bin": {
