@@ -8,10 +8,10 @@ const http = require('http');
 const readline = require('readline');
 
 const configPath = path.join(os.homedir(), 'novaenv-cli-config.json');
-const baseURLAuth = 'https://novaenv.api.shobhnik.xyz/api/v1/cli/auth';
-const baseURLProject = 'https://novaenv.api.shobhnik.xyz/api/v1/cli/project';
-const baseURLEnviornment = 'https://novaenv.api.shobhnik.xyz/api/v1/cli/enviornment';
-const baseURLVariable = 'https://novaenv.api.shobhnik.xyz/api/v1/cli/variable';
+const baseURLAuth = 'https://novaenv.api.shobhnik.site/api/v1/cli/auth';
+const baseURLProject = 'https://novaenv.api.shobhnik.site/api/v1/cli/project';
+const baseURLEnviornment = 'https://novaenv.api.shobhnik.site/api/v1/cli/enviornment';
+const baseURLVariable = 'https://novaenv.api.shobhnik.site/api/v1/cli/variable';
 
 // Login command
 async function login() {
